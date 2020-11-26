@@ -3,6 +3,7 @@ import ComponentWithProps from './ComponentWithProps';
 const Info = () => {
     const someValue = 10;
     const date = new Date(Date.now())
+    
     const someDataObject = {
         author: 'Carlos',
         title: "Can't log in",

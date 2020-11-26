@@ -6,13 +6,15 @@ import './App.css';
 // import Footer from './Components/Parent-Child/Footer'
 import ListItems from './Components/FakeTodo/ListItems'
 import Info from './Components/Intermediate/Info';
+import ContactsStart from './Components/ContactSolution/ContactsStart'
 
 function App(){
   return (
     <div className="App">
       {/* <Standard/> */}
-      <ListItems/>
+      {/* <ListItems/> */}
       {/* <Info/> */}
+      <ContactsStart/>
     </div>
   );
 }
